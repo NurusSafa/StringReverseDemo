@@ -15,3 +15,13 @@ Step:5: Calling the entension method ToReverse() for the variable "strInput" and
 Step:6: Printing the output to the Console. 
 Step:7: Calling the entension method SaveToFile() for the variable "strOutput"
 Step:8: Printing a success message.
+Step 9: Adding a DockerFile. 
+Step 10: Adding a Docker Compose file. 
+Step 11: Run powershell in the project directory. Build the Docker-compose
+Step 12: Create and run the docker image and container. 
+
+Command with Sample Input and output : 
+![Docker_Command_Input_Output](https://user-images.githubusercontent.com/7831389/221422035-330076d7-0f96-423d-8175-4ed204231aee.png)
+
+The Output file: 
+![SavedFile](https://user-images.githubusercontent.com/7831389/221422060-35ad89c5-0734-4d13-ba33-f3ba391e1e08.png)
