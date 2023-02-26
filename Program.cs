@@ -7,6 +7,7 @@ try
 
     string strOutput = strInput.ToReverse();
     await strInput.SaveToFile(strFilePath);
+    Console.WriteLine("Output ==> ");
     Console.WriteLine(strOutput);
     
 }
@@ -14,7 +15,7 @@ catch (Exception ex)
 {
     Console.Error.WriteLine(ex.Message);
 }
-Console.WriteLine("Finished!!");
+
 Console.ReadLine();
 
 
