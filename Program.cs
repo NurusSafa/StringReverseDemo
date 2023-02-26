@@ -3,7 +3,7 @@
 try
 {
     string strInput = Environment.GetEnvironmentVariable("inputString") ?? "";
-    string strFilePath = "\\Output.txt";
+    string strFilePath = "Output.txt";
 
     string strOutput = strInput.ToReverse();
    

@@ -1,0 +1,11 @@
+services:
+  inumenttestapp:
+    build:
+      context: F:\Safa\DockerTest\Repo
+      dockerfile: Dockerfile
+    environment:
+      inputString: null
+    image: inumenttestapp
+    volumes:
+    - /container/path
+version: '3.4'
