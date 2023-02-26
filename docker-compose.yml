@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  inumenttestapp:
+    image: ${DOCKER_REGISTRY-}inumenttestapp
+    build:
+      context: .  
+      dockerfile: Dockerfile      
+    volumes: 
+     - /container/path
