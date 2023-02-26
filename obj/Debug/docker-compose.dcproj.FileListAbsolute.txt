@@ -1,0 +1,8 @@
+F:\Safa\DockerTest\Repo\bin\Debug\InumentTestApp.deps.json
+F:\Safa\DockerTest\Repo\bin\Debug\InumentTestApp.runtimeconfig.json
+F:\Safa\DockerTest\Repo\bin\Debug\InumentTestApp.exe
+F:\Safa\DockerTest\Repo\bin\Debug\InumentTestApp.dll
+F:\Safa\DockerTest\Repo\bin\Debug\InumentTestApp.pdb
+F:\Safa\DockerTest\Repo\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+F:\Safa\DockerTest\Repo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+F:\Safa\DockerTest\Repo\obj\Debug\docker-compose.dcproj.CopyComplete

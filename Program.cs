@@ -3,19 +3,19 @@
 try
 {
     string strInput = Environment.GetEnvironmentVariable("inputString") ?? "";
-    string strFilePath = $"{AppContext.BaseDirectory}\\Output.txt";
+    string strFilePath = "\\Output.txt";
 
     string strOutput = strInput.ToReverse();
-    await strInput.SaveToFile(strFilePath);
+   
     Console.WriteLine("Output ==> ");
     Console.WriteLine(strOutput);
-    
+
+    await strOutput.SaveToFile(strFilePath);
+    Console.WriteLine("Output saved to file successfully !!");
 }
 catch (Exception ex)
 {
-    Console.Error.WriteLine(ex.Message);
+    Console.WriteLine(ex.Message);
 }
-
-Console.ReadLine();
 
 

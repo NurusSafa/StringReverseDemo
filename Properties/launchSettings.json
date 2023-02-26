@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InumentTestApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "inputString": "Sample Text"
+      }
+    }
+  }
+}
