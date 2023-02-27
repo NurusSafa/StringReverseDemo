@@ -1,9 +1,9 @@
 version: '3.4'
 services:
-  inumenttestapp:
+  StringReverseDemo:
     environment:
     - inputString
-    image: ${DOCKER_REGISTRY-}inumenttestapp
+    image: ${DOCKER_REGISTRY-}stringreverseapp
     build:
       context: .  
       dockerfile: Dockerfile      

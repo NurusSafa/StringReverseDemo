@@ -1,9 +1,11 @@
 services:
-  inumenttestapp:
+  StringReverseDemo:
     build:
       context: F:\Safa\DockerTest\Repo
       dockerfile: Dockerfile
-    image: inumenttestapp
+    environment:
+      inputString: null
+    image: stringreverseapp
     volumes:
     - /container/path
 version: '3.4'

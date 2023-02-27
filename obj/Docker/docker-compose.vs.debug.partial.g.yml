@@ -1,14 +1,14 @@
 version: '3.4'
 
 services:
-  inumenttestapp:
-    image: inumenttestapp:dev
-    container_name: InumentTestApp
+  StringReverseDemo:
+    image: stringreverseapp:dev
+    container_name: StringReverseDemo
     build:
       target: build-env
       labels:
         com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "InumentTestApp"
+        com.microsoft.visual-studio.project-name: "StringReverseDemo"
     environment:
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:

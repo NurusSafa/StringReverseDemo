@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8/NJDpW/IG7X6f3XsWA6VFWKc0fcxkQXUj3kHMjQjaqQCFyXVBEo9bXWoQ3cIGwnDzoVnC5CCkS7hJEsy1owSQ==",
+  "dgSpecHash": "qNUBQfgczUIiqBqfgMD0zBREvvdGLY9/23FqsMrTN6ZSOPs0uubsQQa1GJ2diy0LZc5/Bn8LOe10T9p1jTUirQ==",
   "success": true,
   "projectFilePath": "F:\\Safa\\DockerTest\\Repo\\StringReverseDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nsQue\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\nsQue\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\nsQue\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",

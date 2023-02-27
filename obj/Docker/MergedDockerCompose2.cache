@@ -1,9 +1,0 @@
-services:
-  inumenttestapp:
-    build:
-      context: F:\Safa\DockerTest\Repo
-      dockerfile: Dockerfile
-    image: inumenttestapp
-    volumes:
-    - D:\SharedAppFiles\\Output.txt
-version: '3.4'
