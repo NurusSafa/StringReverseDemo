@@ -7,9 +7,11 @@ The following features have been implemented in this project.
 5. Running the application in Docker container.   
 
 ## The development has been done in the following Steps. 
-> Step 1: Creating a Console Application in .Net 6 . 
-> Step 2: Adding Data Access Layer with Interface and service implementation. 
-> Step:1: Adding a static class called "UtilityManager.cs"
+> 1. Creating a Console Application in .Net 6 . 
+> 2. Adding Data Access Layer with Interface and service implementation. 
+> 3.  Adding a static class called "UtilityManager.cs"
+
+
 Step:2: Adding an extension method  of string type named "ToReverse" which will convert the string typed parameter into reverted string and return the string. 
 Step:3: Adding an extension method of string type named "SaveToFile" which will write the string typed parameter into a file and save it to location provided by input parameter.
 Step:4: Coming into the Program.cs file.Initializing a variable named "strInput" from Environment variables with a specific name "inputString".
