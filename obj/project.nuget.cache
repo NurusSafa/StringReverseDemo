@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gao5LC6+Ji+46yOTIlVDfEJCOZjE9Pe8G+dqYqJfKG/q0Pr34e0pgN2CHTDA9WYtGesA/egXDkg+AoWDLI4UhQ==",
+  "dgSpecHash": "8/NJDpW/IG7X6f3XsWA6VFWKc0fcxkQXUj3kHMjQjaqQCFyXVBEo9bXWoQ3cIGwnDzoVnC5CCkS7hJEsy1owSQ==",
   "success": true,
-  "projectFilePath": "F:\\Safa\\DockerTest\\Repo\\InumentTestApp.csproj",
+  "projectFilePath": "F:\\Safa\\DockerTest\\Repo\\StringReverseDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nsQue\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\nsQue\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

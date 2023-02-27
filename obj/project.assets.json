@@ -1555,9 +1555,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Safa\\DockerTest\\Repo\\InumentTestApp.csproj",
-      "projectName": "InumentTestApp",
-      "projectPath": "F:\\Safa\\DockerTest\\Repo\\InumentTestApp.csproj",
+      "projectUniqueName": "F:\\Safa\\DockerTest\\Repo\\StringReverseDemo.csproj",
+      "projectName": "StringReverseDemo",
+      "projectPath": "F:\\Safa\\DockerTest\\Repo\\StringReverseDemo.csproj",
       "packagesPath": "C:\\Users\\nsQue\\.nuget\\packages\\",
       "outputPath": "F:\\Safa\\DockerTest\\Repo\\obj\\",
       "projectStyle": "PackageReference",

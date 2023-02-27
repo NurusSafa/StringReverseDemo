@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "InumentTestApp": {
+    "StringReverseDemo": {
       "commandName": "Project",
       "environmentVariables": {
         "inputString": "Sample Text"
