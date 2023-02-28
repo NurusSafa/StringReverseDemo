@@ -1,28 +1,28 @@
 # String Reverse Demo Project
-The following features have been implemented in this project. 
-1. Taking an envioronment variable as input string and format it in reverse order. 
-2. Print the output in Console window.
-3. Save the output in a file. 
-4. Build the application in Docker image. 
-5. Running the application in Docker container.   
+
+## The following features have been implemented in this project. 
+> 1. Taking an envioronment variable as input string and format it in reverse order. 
+> 2. Print the output in Console window.
+> 3. Save the output in a file. 
+> 4. Build the application in Docker image. 
+> 5. Running the application in Docker container.   
 
 ## The development has been done in the following Steps. 
-> 1. Creating a Console Application in .Net 6 . 
-> 
-> 2. Adding Data Access Layer with Interface and service implementation. 
->    There are two methods have been added here. One for Get Data from File. Another for Save Data to file. 
->    A static class has been added here for creating an extenstion method for string which save the string to a file. 
->    Dependency injection class has been added in DAL for creating and extenstion method for registering Data repository service.
+> 1. Creating a Console Application in .Net 6 . > 
 >     
-> 3. Adding Business Logic Layer with Interface and service implementation.
->    There are three methods have been added here. One for reverse string, second one for get reversed string and third one for save string to file. 
+> 2. Adding Business Logic Layer with Interface and service implementation.
+>    There is a method added here which format the given string into reversed string, 
 >    Here static class has been added for creating an extenstion method for string which format the string in reverse order.
->    Dependency injection class has been added in BLL for creating and extenstion method for registering String Reverse service and DAL service. 
+>    Dependency injection class has been added in BLL for creating and extenstion method for registering String Reverse service.
+>
+> 3. Adding a Helper static class has been added here for creating an extenstion method for string which save the string to a file. 
+>    There is also a method added which will get the string from file asynchronously.
 >    
-> 4. In Program.cs initializing a variable named "strInput" from Environment variables with a specific name "inputString". <br/>
+> 4. In Program.cs initializing a variable named "strInput" from Environment variables with a specific name "inputString". 
 >    If the inputstring is not null then build the host with registering the services from BLL.
->    Getting File path from appsettings.json file. 
->    If the registered service of string reverse is not null then it will proceed to call the method for reversing the input string.
+> 5.  Getting File path from appsettings.json file. 
+>    
+> 6. If the registered service of string reverse is not null then it will proceed to call the method for reversing the input string.
 >    Then it calls the method for saving string to file. 
 >    Then it calls the method for getting the string from file. 
 >    Printing a success message.
