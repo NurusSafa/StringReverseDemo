@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StringReverseDemo.BLL;
+using StringReverseDemo.Helper;
 using StringReverseDemo.Services.Implementation;
 using StringReverseDemo.Services.Interfaces;
 
@@ -11,7 +12,7 @@ try
     string strInput = Environment.GetEnvironmentVariable("inputString");
     if (strInput == null)
     {
-        Console.WriteLine("Please provide a string value of the variable named inputString,e.g inputString ==\"Sample Input\" ");
+        Console.WriteLine("Please provide a string value of the variable named inputString,e.g inputString=\"Sample Input\" ");
     }
     else
     {
@@ -48,13 +49,13 @@ async Task ProcessStringData(IHost host, string strInput, string strFilePath)
     var service = host.Services.GetService<IStringReverseService>();
     if(service != null)
     {
-        service.ReverseString(strInput);
+        string strReversedOutput = service.ReverseString(strInput);
 
-        await service.SaveReversedString(strInput, strFilePath);
+        await strReversedOutput.SaveToFile(strFilePath);
 
-        string strOutput = await service.GetReversedString(strFilePath);
+        string strFileOutput = await StringDataHelper.GetDataFromFile(strFilePath);
         Console.WriteLine("Output ==> ");
-        Console.WriteLine(strOutput);
+        Console.WriteLine(strFileOutput);
         Console.WriteLine("Output saved to file successfully !!");
     }
 }

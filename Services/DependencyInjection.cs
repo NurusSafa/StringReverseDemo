@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StringReverseDemo.DAL
+namespace StringReverseDemo.BLL
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddDataAccessLayer(this IServiceCollection services)
+        public static IServiceCollection AddBusinessLayer(this IServiceCollection services)
         {
-            services.AddTransient<IDataRepository, DataRepository>();
+            services.AddTransient<IStringReverseService, StringReverseService>();
             return services;
         }
     }
