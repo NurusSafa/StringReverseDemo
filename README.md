@@ -8,7 +8,7 @@
 > 5. Running the application in Docker container.   
 
 ## The development has been done in the following Steps. 
-> 1. Creating a Console Application in .Net 6 . > 
+> 1. Creating a Console Application in .Net 6.
 >     
 > 2. Adding Business Logic Layer with Interface and service implementation.
 >    There is a method added here which format the given string into reversed string, 
