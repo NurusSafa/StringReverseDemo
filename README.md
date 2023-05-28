@@ -6,6 +6,7 @@
 > 3. Save the output in a file. 
 > 4. Build the application in Docker image. 
 > 5. Running the application in Docker container.   
+> 6. Upload to Github
 
 ## The development has been done in the following Steps. 
 > 1. Creating a Console Application in .Net 6.
